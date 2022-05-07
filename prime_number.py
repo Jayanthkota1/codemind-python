@@ -1,9 +1,7 @@
-n=int(input())
-c=0
-for i in range(2,n//2):
-    if(n%i==0):
-     c+=1
-if(c==0):
-    print("prime")
+a=int(input())
+for i in range(2,a):
+    if a%i==0:
+     print("not a prime")
+     break
 else:
-    print("not a prime")
+    print("prime")
