@@ -24,4 +24,3 @@ if r==p:
     print("Automorphic Number")
 else:
     print("Not an Automorphic Number")
-    
