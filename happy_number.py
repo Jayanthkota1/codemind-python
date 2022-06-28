@@ -16,6 +16,3 @@ if r==1 or r==7:
     print("True")
 else:
     print("False")
-    
-    
-    
