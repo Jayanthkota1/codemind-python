@@ -12,4 +12,3 @@ for i in range(1,10):
     if prime(f):
         print(i)
         break
-    
