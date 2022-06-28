@@ -24,4 +24,3 @@ elif abs(k-n)<abs(j-n):
     print(k)
 else:
     print(j)
-    
