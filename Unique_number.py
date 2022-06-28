@@ -29,6 +29,7 @@ while(n):
     if d==9:
         j+=1
     n=n//10
-if  a==2 or h==2 or f==2 or e==2 or b==2 or g==2 or j==2 or i==2 or c==2:\n  print("Not Unique Number")
+if  a==2 or h==2 or f==2 or e==2 or b==2 or g==2 or j==2 or i==2 or c==2:
+     print("Not Unique Number")
 else:
     print("Unique Number")
