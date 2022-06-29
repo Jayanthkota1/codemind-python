@@ -13,4 +13,3 @@ r=0
 for i in range(len(a)):
    r=r*10+a[i]
 print(r)   
-    
