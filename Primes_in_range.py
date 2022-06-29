@@ -8,6 +8,8 @@ a=int(input())
 b=int(input())
 c=0
 for i in range(a,b+1):
+    if i==1:
+        continue
     if prime(i) and i!=1:
         c+=1
 print(c)        
