@@ -1,5 +1,6 @@
 n=int(input())
 a=list(map(int,input().split()))
+r=0
 c=0
 for i in a:
     k=i
@@ -8,6 +9,6 @@ for i in a:
         d=k%10
         r=r*10+d
         k//=10
-    if(i==r):
+    if r==i:
         c+=1
 print(c)        
