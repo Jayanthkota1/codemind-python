@@ -1,22 +1,13 @@
-x=input()
-x=x+' '
-c=0
-k=0
-min=0
-a='aeiouAEIOU'
-for i in x:
-    if i==' ':
-        if min<c:
-            min=c
-        c=0
-    if i in a:
-        c+=1
-for i in x:
-    if i==' ':
-        if min==c:
-            k+=1
-        c=0
-    if i in a:
-        c+=1   
-print(k)    
-    
+s=input()
+s=s.lower()
+s=s.split()
+a='aeiou'
+b=[]
+for i in s:
+    c=0
+    for j in i:
+        if j in a:
+            c+=1
+    b.append(c)
+k=max(b)
+print(b.count(k))
