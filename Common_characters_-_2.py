@@ -1,16 +1,16 @@
-x=input()
-x=x.lower()
-b=x.split()
-c=list(b[0])
-f=0
-a=[]
-for i in c:
-    k=0
-    for j in b:
+s=input()
+s=s.lower()
+s=s.split()
+c=0
+k=s[0]
+for i in k:
+    for j in s:
         if i in j:
-            k+=1
-    if k==len(b):
-        f+=1
-print(f)
+            continue
+        else:
+            break
+    else:
+        c+=1
+print(c)        
         
-            
+        
