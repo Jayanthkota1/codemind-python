@@ -1,7 +1,6 @@
-x=input()
-x=x.lower()
-a=x[::-1]
-if a==x:
+s=input()
+s=s.lower()
+if s==s[::-1]:
     print("True")
 else:
     print("False")
