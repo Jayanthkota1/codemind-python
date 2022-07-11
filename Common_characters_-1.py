@@ -1,18 +1,19 @@
-x=input()
-x=x.lower()
-b=x.split()
-c=list(b[0])
-f=0
+s=input()
+s=s.lower()
+s=s.split()
+c=0
 m=0
-a=[]
-for i in c:
-    k=0
-    for j in b:
+k=s[0]
+for i in k:
+    for j in s:
         if i in j:
-            k+=1
-    if k==len(b):
+            continue
+        else:
+            break
+    else:
         m=1
         print(i,end='')
-if(m!=1):
-    print('-1')
-            
+if m==0:
+    print(-1)
+        
+        
