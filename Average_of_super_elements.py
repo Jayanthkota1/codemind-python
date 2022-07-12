@@ -2,14 +2,16 @@ n=int(input())
 a=list(map(int,input().split()))
 s=0
 c=0
-g=0
+k=0
+b=[]
 for i in a:
-    if i==a.count(i):
-        a.remove(i)
-        s=s+i
-        g=1
+    if a.count(i)==i and i not in b :
         c+=1
-if g==0:
+        b.append(i)
+        k=1
+        s=s+i
+if(k==0):
     print(-1)
-else:    
-    print('{:.2f}'.format(s/c))
+else:
+ print('{:.2f}'.format(s/c))        
+        
