@@ -6,3 +6,4 @@ for i in a:
         break
     s=s+i
 print(s)    
+    
