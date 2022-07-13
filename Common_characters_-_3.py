@@ -1,16 +1,22 @@
-x=input()
-b=x.split()
-c=set(b[0])
-a=[]
-for i in c:
-    k=0
-    for j in b:
+s=input()
+s=s.lower()
+s=s.split()
+m=0
+a=''
+b=[]
+k=s[0]
+for i in k:
+    for j in s:
         if i in j:
-            k+=1
-    if k==len(b):
-        print(i)
-        break
+            continue
+        else:
+            break
+    else:
+        m=1
+        a=a+i
+for i in a:
+   b.append(ord(i))
+if m==0:
+    print(-1)
 else:
-    print('-1')
-        
-            
+ print(chr(min(b)))   
